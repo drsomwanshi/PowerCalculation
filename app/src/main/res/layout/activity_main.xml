@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:hint="Enter No1"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:id="@+id/txt1"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:hint="Enter No2"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:id="@+id/txt2"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:text="Calculate"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:id="@+id/b1"
+        android:onClick="fun1"
+
+        ></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:hint="Answer"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:id="@+id/txt3"
+        ></EditText>
+
+
+</LinearLayout>
